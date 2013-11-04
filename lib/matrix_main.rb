@@ -14,6 +14,10 @@ class Matrix
     mat = mat.each { |x| x.each { |y| y.to_i}}
   end
 
+  def imp
+    @matrix.inspect
+  end
+
 
 end
 
