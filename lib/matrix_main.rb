@@ -1,6 +1,6 @@
 class Matrix
 
-
+#Clase
  def mapmap(a)
     a.map { |r| 
       r.map { |e| 
