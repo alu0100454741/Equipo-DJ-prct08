@@ -11,8 +11,7 @@ class Matrix
   def to_m (mat)
     mat = mat.split(',')
     mat = mat.map { |r| r.split(/\s+/) }
-    # mat = mat.each { |x| x.to_i }
-    mat
+    mat = mat.each { |x| x.each { |y| y.to_i}}
   end
 
 
