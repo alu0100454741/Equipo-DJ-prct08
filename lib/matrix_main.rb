@@ -3,14 +3,18 @@ class Matrix
   # include Comparable
 
   #Método de inicialización de la Clase Matrix
-  def initialize ()
- 
-
+  def initialize (mat)
+  	@matrix = to_m (mat)
   end
 
-  def []=(i, j, x)
-    @rows[i][j] = x
+
+  def to_m (mat)
+    mat = mat.split(',')
+    mat = mat.map { |r| r.split(/\s+/) }
+    # mat = mat.each { |x| x.to_i }
+    mat
   end
+
 
 end
 
