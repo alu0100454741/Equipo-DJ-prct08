@@ -1,12 +1,16 @@
 class Matrix
 
-  include Comparable
+  # include Comparable
 
-  #Método de inicialización de la Clase Fracción
+  #Método de inicialización de la Clase Matrix
   def initialize ()
+ 
 
   end
 
+  def []=(i, j, x)
+    @rows[i][j] = x
+  end
 
 end
 
