@@ -1,8 +1,8 @@
 $:.unshift File.dirname(__FILE__) + 'lib'
 
-require 'rspec/core/rake_task'
-RSpec::Core::RakeTask.new
-task :default => :spec
+# require 'rspec/core/rake_task'
+# RSpec::Core::RakeTask.new
+task :default => :test
 
 desc "Instalar las gemas requeridas con bundle"
 task :install do
@@ -23,3 +23,4 @@ desc "Ejecutar rspec con formato: html"
 task :thtml do
   sh "rspec -Ilib spec/matrix_spec.rb --format html > index.html"
 end
+
