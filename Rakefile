@@ -9,9 +9,9 @@ task :install do
   sh "bundle install"
  end
 
-desc "Ejecutar lib/frac_main.rb"
+desc "Ejecutar lib/matrix_main.rb"
 task :bin do
-  sh "ruby lib/mtrix_main.rb"
+  sh "ruby lib/matrix_main.rb"
 end
 
 desc "Ejecutar rspec con documentación --format"
