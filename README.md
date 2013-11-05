@@ -17,6 +17,7 @@ Esta práctica en equipo consiste en el desarrollo de una clase Ruby para repres
 Estado
 ------
 [![Build Status](https://travis-ci.org/alu0100454741/Equipo-DJ-prct08.png?branch=master)](https://travis-ci.org/alu0100454741/Equipo-DJ-prct08)
+
 ---
 
 Universidad de La Laguna  
