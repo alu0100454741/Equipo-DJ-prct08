@@ -27,9 +27,7 @@ attr_accessor :matriz
   end
 
   def show
-  	puts @matriz.inspect
-    puts @m
-    puts @n
+  	@matriz.inspect
   end
   
   def initialize (a)
