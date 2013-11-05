@@ -16,6 +16,9 @@ describe Matrix do
     @matrix1[0,0].should == 9
   end
 
-  
+  it "Asignando un valor a una posicion de la matriz" do
+    @matrix2[0,0] = 10
+    @matrix2[0,0].should == 10
+  end
 
 end
