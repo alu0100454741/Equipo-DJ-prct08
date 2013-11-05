@@ -1,12 +1,18 @@
 class Matrix
 
-#Clase
+attr_accessor :matriz
+
  def mapmap(a)
     a.map { |r| 
       r.map { |e| 
         yield e
       }
     }
+  end
+
+
+  def []=(i, j, x)
+   @matriz[i][j] = x
   end
   
   def to_m (a)
