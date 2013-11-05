@@ -11,4 +11,5 @@ describe Matrix do
     it "La matriz se muestra correctamente" do
       @matrix1.show.should eq("[[9, 3, 2], [4, 6, 7]]")
     end
+    #hola
 end
