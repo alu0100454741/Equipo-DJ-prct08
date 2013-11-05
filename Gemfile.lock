@@ -51,7 +51,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  guard
   guard-bundler
   guard-gitpusher
   guard-rspec
