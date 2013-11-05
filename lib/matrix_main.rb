@@ -18,7 +18,8 @@ attr_accessor :matriz
   def [](i, j)
    @matriz[i][j]
   end
-  
+
+
   def to_m (a)
     a = a.split(/\n/)
     a = a.map { |r| r.split(/\s+/) }
@@ -26,11 +27,15 @@ attr_accessor :matriz
   end
 
   def show
-  	@matriz.inspect
+  	puts @matriz.inspect
+    puts @m
+    puts @n
   end
   
   def initialize (a)
     @matriz = to_m(a)
+    @m = @matriz.size()
+    @n = @matriz[0].size()
   end
 
 end
