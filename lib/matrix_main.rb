@@ -14,6 +14,10 @@ attr_accessor :matriz
   def []=(i, j, x)
    @matriz[i][j] = x
   end
+
+  def [](i, j)
+   @matriz[i][j]
+  end
   
   def to_m (a)
     a = a.split(/\n/)
