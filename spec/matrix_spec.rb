@@ -11,5 +11,11 @@ describe Matrix do
   it "La matriz se muestra correctamente" do
     @matrix1.show.should eq("[[9, 3, 2], [4, 6, 7]]")
   end
+
+  it "Comprobando el acceso de un dato de la matriz mediante indice" do
+    @matrix1[0,0].should == 9
+  end
+
   
+
 end
