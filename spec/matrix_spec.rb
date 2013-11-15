@@ -1,7 +1,7 @@
 require 'matrix_main.rb'
 require 'rspec'
 
-describe Matrix do
+describe "Conjunto de expectativas" do
 
   before :each do
     @matrix1 = Matrix.new("9 3 2\n4 6 7")
